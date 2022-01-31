@@ -47,3 +47,7 @@ snap install telegram-desktop
 ## Discord 
 figlet Discord
 snap install discord
+
+## Postman
+figlet Postman
+snap install postman
