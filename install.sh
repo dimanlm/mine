@@ -8,6 +8,7 @@ then
   exit
 fi
 
+## Figlet
 if ! command -v figlet &> /dev/null
 then
   apt install figlet
@@ -21,3 +22,8 @@ apt upgrade
 ## Install VS Code
 figlet VS Code
 snap install --classic code
+
+## NPM - Node
+figlet nodejs - npm
+apt install -y nodejs
+npm install -g npm@latest
