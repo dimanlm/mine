@@ -23,6 +23,10 @@ apt -y upgrade
 figlet git openssh curl net-tools
 apt install -y git openssh-server curl net-tools
 
+## Virtualbox
+figlet Virtualbox
+apt install virtualbox
+
 ## Install VS Code
 figlet VS Code
 snap install --classic code
