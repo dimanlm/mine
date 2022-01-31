@@ -17,3 +17,7 @@ fi
 figlet UPDATE n UPGRADE
 apt update
 apt upgrade
+
+## Install VS Code
+figlet VS Code
+snap install --classic code
