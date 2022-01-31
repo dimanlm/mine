@@ -35,3 +35,8 @@ npm install -g npm@latest
 ## PIP3
 figlet pip3
 apt install -y python3-pip
+
+## Telegram
+figlet telegram
+snap install telegram-desktop
+
