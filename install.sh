@@ -40,3 +40,6 @@ apt install -y python3-pip
 figlet telegram
 snap install telegram-desktop
 
+## Discord 
+figlet Discord
+snap install discord
