@@ -17,7 +17,11 @@ fi
 ## Update
 figlet UPDATE n UPGRADE
 apt update
-apt upgrade
+apt -y upgrade
+
+## Basic
+figlet git openssh curl net-tools
+apt install -y git openssh-server curl net-tools
 
 ## Install VS Code
 figlet VS Code
@@ -27,3 +31,7 @@ snap install --classic code
 figlet nodejs - npm
 apt install -y nodejs
 npm install -g npm@latest
+
+## PIP3
+figlet pip3
+apt install -y python3-pip
