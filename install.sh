@@ -11,7 +11,7 @@ fi
 ## Figlet
 if ! command -v figlet &> /dev/null
 then
-  apt install figlet
+  apt install -y figlet
 fi
 
 ## Update
@@ -25,7 +25,7 @@ apt install -y git openssh-server curl net-tools
 
 ## Virtualbox
 figlet Virtualbox
-apt install virtualbox
+apt install -y virtualbox
 
 ## Install VS Code
 figlet VS Code
