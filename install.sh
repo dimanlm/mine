@@ -16,6 +16,7 @@ fi
 
 ## Update
 figlet UPDATE n UPGRADE
+add-apt-repository universe
 apt update
 apt -y upgrade
 
@@ -33,6 +34,7 @@ snap install --classic code
 
 ## NPM - Node
 figlet nodejs - npm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 apt install -y nodejs
 npm install -g npm@latest
 
@@ -51,3 +53,13 @@ snap install discord
 ## Postman
 figlet Postman
 snap install postman
+
+## Starship - CLI
+figlet Starship
+# fonts
+apt-get install fonts-powerline
+apt install fonts-firacode
+# cli
+curl -sS https://starship.rs/install.sh | sh
+echo "Add the following line at the end of your ~/.bashrc file:"
+echo "eval '$(starship init bash)'"
